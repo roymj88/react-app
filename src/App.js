@@ -4,14 +4,10 @@ class App extends React.Component {
   render(){
     return (
         <div> 
-          <h1>Hello Eggheads!</h1>
-          <h2>Second tag</h2>
+          <h1>{this.props.txt}</h1>
         </div>
       )
   }
 }
-
-// const App = () => <h1>Hello Stateless</h1>
-
 
 export default App
